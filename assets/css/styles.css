@@ -14,6 +14,9 @@ a {
   color: #ffffff;
   font-size: 1.6rem;
 }
+a:hover {
+  opacity: 0.8;
+}
 
 .content {
   width: 1170px;
@@ -25,6 +28,8 @@ a {
   background-color: #171100;
   color: white;
   height: 50px;
+  border-radius: 12px;
+  text-align: center;
 }
 .row {
   display: flex;
@@ -213,4 +218,77 @@ a {
   line-height: 54px;
   color: #171100;
   margin-right: 8px;
+}
+/* Courses */
+#courses {
+  margin-top: 200px;
+}
+#courses {
+  position: relative;
+}
+#courses .nav-row {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  gap: 18px;
+}
+#courses .title {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+#courses .value-course {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+#courses .courses {
+  margin-top: 55px;
+  gap: 30px;
+}
+#courses .course {
+  width: 370px;
+  height: 466px;
+  background: #ffffff;
+  box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+#courses .courses .body-2 {
+  padding: 0 22px;
+}
+#courses .course .body-2 .row {
+  justify-content: space-between;
+}
+#courses .course .body-2 .row .btn {
+  padding: 12px 24px;
+  border-radius: 25px;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+#courses .course:first-child .body-2 .row .btn {
+  background: #ffb900;
+}
+#courses .course .body-2 .row .row {
+  gap: 6px;
+}
+#courses .courses .image {
+  margin-bottom: 16px;
+  border-radius: 12px 12px 0px 0px;
+  width: 370px;
+  height: 278px;
+  object-fit: cover;
+}
+#courses .courses .course .value-course {
+  margin-bottom: 6px;
+  color: #171100;
+}
+#courses .courses .course .desc {
+  margin-bottom: 12px;
+}
+#courses .courses .course .vote {
+  width: 18px;
+  height: 18px;
 }
