@@ -46,29 +46,56 @@ a {
   background-color: #fffcf4;
   padding-top: 36px;
 }
-.header .navbar {
+.neo {
+  position: sticky;
+  background: #fffcf4;
+  top: 0px;
+  z-index: 1;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.navbar {
   display: flex;
   justify-content: space-between;
+  background: #fffcf4;
 }
-.header .navbar .nav {
+.navbar .nav {
   margin-top: 11px;
   margin-top: auto;
   margin-bottom: auto;
   display: flex;
 }
-.header .navbar .nav li {
+.navbar .nav li {
   padding: 6px 21px;
   text-align: center;
   overflow: hidden;
   line-height: 1.75;
 }
-.header .navbar .nav li a {
+
+.navbar .nav li a {
   color: #5f5b53;
 }
-.header .navbar .action {
+.home1 {
+  position: relative;
+}
+.home1::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #171100;
+  bottom: 6px;
+  left: 22px;
+}
+.navbar .action .nav li .home {
+  color: #171100;
+  font-weight: 600;
+}
+.navbar .action {
   display: flex;
 }
-.header .navbar .action .su {
+.navbar .action .su {
   font-family: "Poppins";
   font-weight: 600;
   text-align: center;
