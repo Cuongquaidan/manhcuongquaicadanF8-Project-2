@@ -322,16 +322,16 @@ a:hover {
   margin-bottom: 34px;
   font-size: 14px;
 }
-.banner .dots {
+.dots {
   gap: 6px;
 }
-.banner .dot {
+.dot {
   width: 6px;
   height: 6px;
   border-radius: 999px;
   background: #634700;
 }
-.banner .info .dot-active {
+.dot-active {
   background-color: #ffb900;
 }
 .banner .comments {
@@ -404,4 +404,101 @@ a:hover {
   height: 440px;
   object-fit: cover;
   border-radius: 20px;
+}
+/* Blogs */
+
+.blogs {
+  margin-top: 200px;
+  padding: 96px 0px 96px 0px;
+  background: #fffcf4;
+  flex: 1;
+}
+.blogs .title {
+  display: block;
+  width: 100%;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 3.8rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #130606;
+}
+.blogs .desc {
+  margin-top: 21px;
+  font-size: 1.6rem;
+  color: #696262;
+  display: block;
+  line-height: 1.5;
+  width: 448px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 55px;
+}
+.blogs .blog {
+  background: #ffffff;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  height: 467px;
+}
+.blogsss {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
+.blogs .blog .image {
+  width: 370px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 26px;
+  border-radius: 16px 16px 0px 0px;
+}
+.blog .body-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blog .row {
+  padding-bottom: 18px;
+  color: #5f5b53;
+  border-bottom: 1px solid #e2dfda;
+  border-radius: 0.5px;
+  width: 160px;
+}
+.blogs .blog .dot-active {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #ffb900;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+.blogs .blog .date {
+  font-size: 1.4rem;
+}
+.blog .title {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}
+.blog .btn {
+  min-width: 118px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.blog:first-child .btn {
+  background: #ffb900;
+  border: 0px;
+}
+.blogs .dots {
+  margin-top: 38px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
